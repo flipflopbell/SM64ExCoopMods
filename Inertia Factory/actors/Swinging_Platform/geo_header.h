@@ -1,0 +1,13 @@
+extern const GeoLayout swinging_platform_geo[];
+extern Lights1 Swinging_Platform_f3dlite_material_006_lights;
+extern Lights1 Swinging_Platform_f3dlite_material_005_lights;
+extern u8 Swinging_Platform_KKIIDDZZ_DAT1340_p00_i8[];
+extern u8 Swinging_Platform_KKIIDDZZ_DAT2401_p00_i8[];
+extern Vtx Swinging_Platform_swing_mesh_layer_1_vtx_0[77];
+extern Gfx Swinging_Platform_swing_mesh_layer_1_tri_0[];
+extern Vtx Swinging_Platform_swing_mesh_layer_1_vtx_1[8];
+extern Gfx Swinging_Platform_swing_mesh_layer_1_tri_1[];
+extern Gfx mat_Swinging_Platform_f3dlite_material_006[];
+extern Gfx mat_Swinging_Platform_f3dlite_material_005[];
+extern Gfx Swinging_Platform_swing_mesh_layer_1[];
+extern Gfx Swinging_Platform_material_revert_render_settings[];

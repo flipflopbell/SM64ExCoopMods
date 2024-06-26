@@ -1,0 +1,8 @@
+extern const GeoLayout rotating_platform_2_geo[];
+extern Lights1 Rotating_Platform_2_f3dlite_material_metal_pillar_lights;
+extern u8 Rotating_Platform_2_KKIIDDZZ_DAT1340_p00_i8[];
+extern Vtx Rotating_Platform_2_rot2_mesh_layer_1_vtx_0[90];
+extern Gfx Rotating_Platform_2_rot2_mesh_layer_1_tri_0[];
+extern Gfx mat_Rotating_Platform_2_f3dlite_material_metal_pillar[];
+extern Gfx Rotating_Platform_2_rot2_mesh_layer_1[];
+extern Gfx Rotating_Platform_2_material_revert_render_settings[];

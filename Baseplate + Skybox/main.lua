@@ -1,0 +1,3 @@
+-- name: Baseplate + Skybox
+-- description: The classic baseplate from Roblox Studio. Original by TheLoverOfBeards, edited to add the skybox by Flipflop Bell
+-- incompatible: romhack

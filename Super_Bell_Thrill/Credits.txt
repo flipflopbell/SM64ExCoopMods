@@ -1,0 +1,10 @@
+Rom Hack by Flipflop Bell
+Textures: 
+BroDute, SMW Central and Nintendo
+
+Music: 
+Daredevil           ShrooboidBrat
+SM3DW Overworld     Cackletta
+NSMB Underground    TheGael95
+
+Big thanks to the SM64 rom hacking, Fast64 and SM64EX Coop discord servers, Blocky.png and Woissil (both for translating Kaze's MOPs), Bloxxel and Owokitty (for the custom Green Demon), Mr.NeedleMouse64 (camera.lua and help with warps) and you for trying it out!
