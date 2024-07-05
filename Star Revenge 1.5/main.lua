@@ -1,5 +1,5 @@
--- name: Star Revenge 1.5: Star Takeover Redone
--- description: 
+-- name: \\#2C82C9\\Star Revenge 1.5: \\#F37934\\Star Takeover Redone
+-- description: This is a modern remake of Star Revenge 1 ST with 125 stars, which is also the 2nd time SR1 got remade. Has Star Check support. \n\nOriginal rom hack by Brodute\nPort by flipflop bell, SallyYT and Fearl\nScrolling Textures by Sunk (she made the script that helped in porting those)\nCustom HUD by OneCalledRPG and Sunk
 -- incompatible: romhack
 
 gLevelValues.entryLevel = LEVEL_CASTLE_COURTYARD
