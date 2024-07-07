@@ -1,5 +1,5 @@
 -- name: \\#FFA500\\Super Mario 74 - Ten Years After (Super Deluxe)\\#FFA500\\
--- description: 155 Star Light Kaizo Rom Hack made by Lincrash and ported by Flipflop Bell! Original SM74 and SM74EE by Lugmillord! Huge Thanks to Sunk for faster hangable ceiling movement, faster pushable metal boxes, scrolling textures, custom hud template and fixing the chill bully. Thanks to Cooliokid and more for helping me make the custom template. Thanks to Cooliokid and Peachypeach for helping me fix C3 treasure chests. Special Thanks for Stuffed1941, MrRedsen, Msatiro and the rest of the Brazillian Coop Community for helping me playtest!
+-- description: 155 Star Light Kaizo Rom Hack made by Lincrash and ported by Flipflop Bell!\nOriginal SM74 and SM74EE by Lugmillord!\n\nHuge Thanks to Sunk for faster hangable ceiling movement, faster pushable metal boxes, scrolling textures, custom hud template and fixing the chill bully.\nThanks to Cooliokid and Peachypeach for helping me fix C3 treasure chests.\nThanks to OneCalledRPG for the updated custom hud.\n\nSpecial Thanks for Stuffed1941, MrRedsen, Msatiro and the rest of the Brazillian Coop Community for helping me playtest!
 -- incompatible: romhack
 
 gLevelValues.entryLevel = LEVEL_CASTLE_COURTYARD

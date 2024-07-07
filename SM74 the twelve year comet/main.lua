@@ -1,5 +1,5 @@
 -- name: \\#00FF00\\Super Mario 74 - The Twelve Year Comet v1.3.2\\#00FF00\\
--- description: 101 Star Light Kaizo Rom Hack made by Lincrash and ported by Flipflop Bell! Original SM74 and SM74EE by Lugmillord! Huge Thanks to Sunk for faster hangable ceiling movement, faster pushable metal boxes, scrolling textures, and custom hud template. Thanks to Cooliokid and more for helping me make the custom template.
+-- description: 101 Star Light Kaizo Rom Hack made by Lincrash and ported by Flipflop Bell!\nOriginal SM74 and SM74EE by Lugmillord!\n\nHuge Thanks to Sunk for faster hangable ceiling movement, faster pushable metal boxes, scrolling textures, and custom hud template.\nThanks to OneCalledRPG for the updated custom hud.
 -- incompatible: romhack
 
 gLevelValues.entryLevel = LEVEL_CASTLE_COURTYARD

@@ -268,7 +268,7 @@ local function on_hud_render() -- Handles the HUD layouts
         --render_lives_segment(22, 15, 1, 1) -- Lives Segment
         render_coins_segment(22, 38, 1, 1) -- Coins Segment
         render_stars_segment(22, 15, 1, 1) -- Stars Segment
-        render_power_meter(halfScreenWidth + 140, 9, 65, 65) --scale 65 for default power meter
+        render_power_meter(screenWidth - 70, 9, 65, 65) --scale 65 for default power meter
         render_cap_timer(math.ceil(gMarioStates[0].capTimer/30), 22, screenHeight - 35) -- Cap Timer Featured in Some Rom Hacks
         if newTimer then
             render_timer(hud_get_value(HUD_DISPLAY_TIMER), halfScreenWidth - 47, 9) --New Timer
