@@ -48,3 +48,33 @@ function kwhomp_loop(o)
 end
 
 hook_behavior(id_bhvWhompKingBoss, OBJ_LIST_SURFACE, false, nil, kwhomp_loop) --Small King Whomp from Mountain Slide
+
+--infinite lives toggle
+
+gGlobalSyncTable.inflives = true
+
+--toggling on and off
+function livestoggle(msg)
+    if (msg == "on") then djui_chat_message_create("infinite lives are on")
+        gGlobalSyncTable.inflives = true
+        return true
+    elseif (msg == "off") then djui_chat_message_create("infinite lives are off")
+        gGlobalSyncTable.inflives = false
+        return true
+    end
+    return false
+end
+
+--command hooks
+if network_is_server() then
+    hook_chat_command('inflives', "(on|off) infinite lives toggle", livestoggle)
+end
+
+--if the toggle is on...
+function resetlives()
+    if gGlobalSyncTable.inflives == true then
+        gMarioStates[0].numLives = 4 --resets your lives back to 4 when you die
+    end
+end
+
+hook_event(HOOK_ON_DEATH, resetlives)
