@@ -1,0 +1,31 @@
+const BehaviorScript bhvExplosion[] = {
+    BEGIN(OBJ_LIST_DESTRUCTIVE),
+    ID(id_bhvExplosion),
+    OR_INT(oFlags, (OBJ_FLAG_COMPUTE_DIST_TO_MARIO | OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE)),
+    BILLBOARD(),
+    SET_INTERACT_TYPE(INTERACT_DAMAGE),
+    SET_INT(oDamageOrCoinValue, 2),
+    SET_INT(oIntangibleTimer, 0),
+    SET_HITBOX_WITH_OFFSET(/*Radius*/ 150, /*Height*/ 150, /*Downwards offset*/ 150),
+    SCALE(/*Unused*/ 0, /*Field*/ 200),
+    SET_INT(oAnimState, -1),
+    CALL_NATIVE(custom_bhv_explosion_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(custom_bhv_explosion_loop),
+        ADD_INT(oAnimState, 1),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvBowserBombExplosion[] = {
+    BEGIN(OBJ_LIST_DEFAULT),
+    ID(id_bhvBowserBombExplosion),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    BILLBOARD(),
+    SET_FLOAT(oGraphYOffset, -288),
+    SET_INT(oAnimState, -1),
+    SCALE(/*Unused*/ 0, /*Field*/ 1500),
+    CALL_NATIVE(bhv_play_explosion_sound),
+    BEGIN_LOOP(),
+        CALL_NATIVE(custom_bhv_bowser_bomb_explosion_loop),
+    END_LOOP(),
+};
