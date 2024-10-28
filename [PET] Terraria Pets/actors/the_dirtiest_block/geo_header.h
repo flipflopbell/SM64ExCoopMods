@@ -1,0 +1,11 @@
+extern const GeoLayout the_dirtiest_block_Anim_State_Switch_opt1[];
+extern const GeoLayout the_dirtiest_block_geo[];
+extern Lights1 the_dirtiest_block_Dirtiest_lights;
+extern u8 the_dirtiest_block_Dirtiest_ci4[];
+extern u8 the_dirtiest_block_Dirtiest_pal_rgba16[];
+extern Vtx the_dirtiest_block_Body_mesh_layer_1_vtx_0[53];
+extern Gfx the_dirtiest_block_Body_mesh_layer_1_tri_0[];
+extern Gfx mat_the_dirtiest_block_Dirtiest[];
+extern Gfx mat_revert_the_dirtiest_block_Dirtiest[];
+extern Gfx the_dirtiest_block_Body_mesh_layer_1[];
+extern Gfx the_dirtiest_block_Body_mesh_layer_1_mat_override_Dirtiest_0[];
