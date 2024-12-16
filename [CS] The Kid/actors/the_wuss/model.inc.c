@@ -2661,7 +2661,7 @@ Gfx mat_the_wuss_Cape__CAP_EMBLEM_[] = {
 	gsSPLight(&the_wuss_Cape__CAP_EMBLEM__lights.l, 1),
     gsSPLight(&the_wuss_Cape__CAP_EMBLEM__lights.a, 2),
 	gsSPCopyLightEXT(1, 15),
-	gsSPCopyLightEXT(2, 17),
+    gsSPCopyLightEXT(2, 17),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),

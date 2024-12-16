@@ -640,6 +640,12 @@ const GeoLayout the_wuss_geo[] = {
 GEO_ASM(LAYER_ALPHA + 3, geo_mario_set_player_colors),
 GEO_ASM(LAYER_TRANSPARENT + 3, geo_mario_set_player_colors),
 
+				GEO_ASM(LAYER_TRANSPARENT_DECAL + 3, geo_mario_set_player_colors),
+				GEO_ASM(LAYER_OPAQUE << 2, geo_mirror_mario_backface_culling),
+GEO_ASM(LAYER_ALPHA << 2, geo_mirror_mario_backface_culling),
+GEO_ASM(LAYER_TRANSPARENT << 2, geo_mirror_mario_backface_culling),
+
+				GEO_ASM(LAYER_TRANSPARENT_DECAL << 2, geo_mirror_mario_backface_culling),
 				GEO_ASM(0, geo_mirror_mario_set_alpha),
 				GEO_SWITCH_CASE(0, geo_switch_mario_cap_effect),
 				GEO_OPEN_NODE(),
@@ -789,14 +795,11 @@ GEO_ASM(LAYER_TRANSPARENT + 3, geo_mario_set_player_colors),
 					GEO_BRANCH(1, the_wuss_2_Cap_Effect_Switch_opt2),
 					GEO_BRANCH(1, the_wuss_2_Cap_Effect_Switch_opt3),
 				GEO_CLOSE_NODE(),
-				GEO_ASM(LAYER_OPAQUE << 2, geo_mirror_mario_backface_culling),
-GEO_ASM(LAYER_ALPHA << 2, geo_mirror_mario_backface_culling),
-GEO_ASM(LAYER_TRANSPARENT << 2, geo_mirror_mario_backface_culling),
-
 				GEO_ASM((LAYER_OPAQUE << 2) | 1, geo_mirror_mario_backface_culling),
 GEO_ASM((LAYER_ALPHA << 2) | 1, geo_mirror_mario_backface_culling),
 GEO_ASM((LAYER_TRANSPARENT << 2) | 1, geo_mirror_mario_backface_culling),
 
+				GEO_ASM((LAYER_TRANSPARENT_DECAL << 2) | 1, geo_mirror_mario_backface_culling),
 			GEO_CLOSE_NODE(),
 		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
